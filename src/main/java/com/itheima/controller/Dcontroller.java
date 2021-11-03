@@ -1,11 +1,15 @@
 package com.itheima.controller;
 
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
 @RestController
-@RequestMapping("/index")
+@RequestMapping("/dyp")
 public class Dcontroller {
 
-    @RequestMapping("/index")
+    @GetMapping
     public String test1(){
-        return "/index.html";
+        return "窦云鹏";
     }
 }

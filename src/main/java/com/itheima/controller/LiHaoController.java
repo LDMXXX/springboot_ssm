@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/li")
 public class LiHaoController {
 
+    @RequestMapping
     public String Lihao(){
         return "你好吗";
     }
